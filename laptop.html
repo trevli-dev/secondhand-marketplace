@@ -1,0 +1,69 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Laptop</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container">
+            <a class="navbar-brand" href="index.html">Second Street</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="categories.html">Buy</a></li>
+                    <li class="nav-item"><a class="nav-link" href="sell.html">Sell</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                    <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Product Detail Section -->
+    <section class="py-5 bg-light">
+        <div class="container">
+            <h1 class="text-center">Laptop</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <img src="images/laptop.webp" class="img-fluid mb-3" alt="Laptop">
+                </div>
+                <div class="col-md-6">
+                    <h3>Price: $400</h3>
+                    <p>Used laptop in great condition with a 15.6-inch display and 8GB RAM.</p>
+                    <h5>Contact the Seller</h5>
+                    <form>
+                        <div class="mb-3">
+                            <label for="buyerName" class="form-label">Your Name</label>
+                            <input type="text" class="form-control" id="buyerName" placeholder="Enter your name">
+                        </div>
+                        <div class="mb-3">
+                            <label for="buyerEmail" class="form-label">Your Email</label>
+                            <input type="email" class="form-control" id="buyerEmail" placeholder="Enter your email">
+                        </div>
+                        <div class="mb-3">
+                            <label for="buyerMessage" class="form-label">Your Message</label>
+                            <textarea class="form-control" id="buyerMessage" rows="4" placeholder="Type your message"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2024 Second Street. All rights reserved.</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
